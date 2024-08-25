@@ -29,12 +29,12 @@ const ShoppingCart: React.FC<Props> = ({
   getCartsByRole,
 }) => {
   const totalWithoutTax = products.reduce(
-    (sum: any, product: any) => sum + product.count * product.itemNum.price,
+    (sum: any, product: any) => sum + product.count * product.itemNum?.price,
     0
   );
   const totalWithTax = products.reduce(
     (sum: any, product: any) =>
-      sum + product.count * product.itemNum.price * 0.916,
+      sum + product.count * product.itemNum?.price * 0.916,
     0
   );
 
@@ -130,7 +130,7 @@ const ShoppingCart: React.FC<Props> = ({
       prodName: product.itemNum.naziv_artikla,
       prodCate: product.itemNum.potkategorija[0],
       unit: product.itemNum.jedinica_mere,
-      salePrice: product.itemNum.price,
+      salePrice: product.itemNum?.price,
       status: "Pending",
       author: userEmail,
     }));
@@ -261,14 +261,14 @@ const ShoppingCart: React.FC<Props> = ({
                 </Col>
                 <Col span={5} style={{ textAlign: "center" }}>
                   <Text strong style={{ fontSize: "20px" }}>
-                    {Number(product.count * product.itemNum.price).toFixed(2)}{" "}
+                    {Number(product.count * product.itemNum?.price).toFixed(2)}{" "}
                     RSD
                   </Text>
                 </Col>
                 <Col span={5} style={{ textAlign: "center" }}>
                   <Text strong style={{ fontSize: "20px" }}>
                     {Number(
-                      product.count * product.itemNum.price * 0.916
+                      product.count * product.itemNum?.price * 0.916
                     ).toFixed(2)}{" "}
                     RSD
                   </Text>
