@@ -1,0 +1,51 @@
+.login {
+  width: 400px;
+  background: #ececec;
+  height: calc(100vh - 150px);
+  /* border: 1px solid #dddfe2; */
+  /* box-shadow: 0 2px 4px rgb(0 0 10 / 64%), 0 8px 16px rgb(0 10 0 / 34%); */
+  /* border-radius: 8px; */
+  padding: 1rem;
+  text-align: center;
+}
+
+.login > form input {
+  border-radius: 4px;
+  /* border: 2px solid lightgrey; */
+  outline: none;
+  color: #1d2129;
+  /* margin-top: 1rem; */
+  padding: 12px;
+  font-size: 16px;
+  margin: 10px 0px;
+  border-radius: 6px;
+}
+
+.forgotpass {
+  border: none;
+  background-color: transparent;
+}
+
+.hoverbutton {
+  background-color: rgb(0, 77, 140);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-top: 2rem;
+  width: 100%;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hoverbutton:hover {
+  background-color: rgb(0, 77, 120);
+  transform: scale(1.01);
+}
+
+.change_color {
+  color: blue;
+}
+.change_color:hover {
+  color: rgb(0, 77, 140);
+}

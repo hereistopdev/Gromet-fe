@@ -1,0 +1,78 @@
+.profileBox {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.i {
+  color: #acacac;
+  border: 1px solid #acacac;
+  padding: 0px 8px;
+  border-radius: 50%;
+}
+
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoBox {
+  background-color: #ececec;
+  border-radius: 15px;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px 30px;
+}
+
+.itemBox {
+  border: 1px solid #acacac;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.itemWrapper {
+  padding: 10px 10px;
+}
+
+.itemWrapper:hover {
+  background-color: #acacac;
+  cursor: pointer;
+}
+
+.item {
+  color: #004d8c;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.item:hover {
+  font-weight: 700;
+}
+
+.navBox {
+  list-style: none;
+  background-color: #004d8c;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+}
+
+.serviceWrapper {
+  color: white;
+  margin: 0px;
+}
+
+.mainBox {
+  background-color: #dddcdc;
+}
+
+.serviceBox {
+  padding: 8px 10px;
+}
+
+.serviceBox:hover {
+  background-color: #4a769b;
+  cursor: pointer;
+}

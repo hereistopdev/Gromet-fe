@@ -1,0 +1,163 @@
+.divContactLeftAdressTitle {
+  font-size: 26px;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.place-card-large, .address, .place-name, .place-card{
+  margin-bottom: -500px !important;
+  display: none !important;
+}
+
+.divContactContainerFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.divContactRight {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  direction: ltr;
+}
+
+.divContactLeft {
+  max-width: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3d464d;
+  text-align: left;
+  direction: ltr;
+}
+
+.rowBoldedContact {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3d464d;
+  text-align: left;
+  direction: ltr;
+  padding-left: 30px;
+}
+
+.contactTextStandard {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3d464d;
+  text-align: left;
+  direction: ltr;
+}
+
+.contactPhotoSrc {
+  margin-top: 10px;
+  width: 480px;
+  height: 370px;
+}
+
+.contactPhotoSrcHalf {
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 480px;
+  height: 370px;
+  align-self: flex-start;
+}
+
+.contactPhotoSrcHalf {
+  width: 480px;
+}
+
+.faq__section-body {
+  border: 2px solid #f0f0f0;
+  border-radius: 2px;
+  padding: 30px 0px;
+}
+.divContactLeft .contactTextStandard, .divContactLeft .divContactLeftAdressTitle {
+  padding-left: 30px;
+}
+.divContactLeft:last-child{
+  padding-left: 0px !important; 
+}
+.imgContactImg{
+  /* height: 370px; */
+  width: 480px;
+}
+
+.sedisteFirme28{
+  font-size: 28px !important;
+}
+@media (max-width: 991px) {
+  .imgContactImg{
+    /* width: 378px; */
+    width: 479px;
+  }
+  .divContactLeft .contactTextStandard, .divContactLeft .divContactLeftAdressTitle, .rowBoldedContact {
+    padding-left: 0px;
+  }
+  .divContactContainerFlex {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .divContactRight,
+  .divContactLeft {
+    text-align: center;
+    width: 480px;
+    max-width: 100%;
+  }
+
+  .divContactLeft .divContactLeftAdressTitle,
+  .divContactRight .divContactLeftAdressTitle {
+    text-align: center;
+  }
+
+  /* .divContactLeft .contactTextStandard,
+  .divContactRight .contactTextStandard {
+    margin: 0 auto;
+  }
+
+  .divContactLeft .rowBoldedContact,
+  .divContactRight .rowBoldedContact {
+    margin: 0 auto;
+  } */
+}
+
+@media (max-width: 600px) {
+  .imgContactImg{
+    /* width: 270px !important; */
+    width: 400px !important;
+    height: 170px;
+  }
+
+  .contactTextStandard ul li{
+    text-align: left;
+  }
+  .contactPhotoSrcHalf {
+    width: 300px;
+    height: 200px;
+  }
+
+  .faq__section-body {
+    border: 2px solid #f0f0f0;
+    border-radius: 2px;
+    padding: 48px 20px;
+  }
+
+  .contactTextStandard {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .imgContactImg{
+    /* width: 270px !important; */
+    width: 300px !important;
+    height: 170px;
+  }
+}

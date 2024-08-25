@@ -1,0 +1,44 @@
+.divSearchResultContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.divSearchResultImageContainer{
+    width: 80px;
+    height: 65px;
+}
+
+.divSearchResultImageContainer img{
+    height: 65px;
+    width: 75px;
+}
+
+.divSearchResultItemColumn{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+.divSearchResultItemColumnTitle{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 14px;
+    /* padding-top: 5px; */
+}
+
+.divSearchResultItemColumnCode{
+    color: gray;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.divNavigationSearchResult ul {
+    overflow-y: scroll;
+    max-height: 500px;
+}

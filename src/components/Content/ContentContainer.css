@@ -1,0 +1,59 @@
+.selfServiceContentContainer{
+    align-self: flex-start;
+    width: stretch;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selfServiceContentTitle{
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+.totop__end{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.totop__body {
+    position: fixed;
+    bottom: 36px;
+    left: 80%;
+    top: auto;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -20px;
+    z-index: 8888;
+}
+.totop__button {
+    pointer-events: auto;
+    width: 39px;
+    height: 39px;
+    border-radius: 19.5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #00AEEF;
+    fill: currentColor;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    transition: background-color .15s,color .15s;
+    margin-left: 80px;
+    margin-right: 24px;
+}

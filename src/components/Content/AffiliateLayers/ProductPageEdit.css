@@ -1,0 +1,32 @@
+.input-edit-field {
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+  width: 380px;
+  border: 1px solid #d3d3d3;
+}
+.input-edit-field:hover {
+  border-color: #00aeef !important;
+}
+
+.label-edit-name {
+  padding: 5px;
+  width: 30%;
+}
+
+.input-edit-form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  font-size: 12pt;
+  justify-content: space-between;
+}
+.btn-add {
+  border: 1px solid #00aeef00;
+}
+.btn-add:hover {
+  background-color: #00aeef20;
+  border: 1px solid #00aeef;
+}

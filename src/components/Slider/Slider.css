@@ -1,0 +1,8 @@
+.price-range-slider {
+  margin: 5px;
+  width: 150px;
+}
+.divCurrentPriceSlider{
+  display: flex;
+  justify-content: space-between;
+}

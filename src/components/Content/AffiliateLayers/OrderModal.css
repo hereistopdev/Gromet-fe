@@ -1,0 +1,21 @@
+.Modal-order .ant-modal-content {
+  overflow: hidden;
+}
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  align-items: center;
+}
+.item-info-label {
+  width: 30%;
+}
+
+.item-info-value {
+  text-align: center;
+  width: 70%;
+}
+.item-info-value input {
+  font-size: 12pt !important;
+  padding: 10px !important;
+}

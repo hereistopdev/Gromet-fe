@@ -1,0 +1,22 @@
+.forgotpass {
+  width: 400px;
+  height: calc(100vh - 200px);
+  background: #ececec;
+  /* border: 1px solid #dddfe2; */
+  /* box-shadow: 0 2px 4px rgb(0 0 10 / 64%), 0 8px 16px rgb(0 10 0 / 34%); */
+  /* border-radius: 8px; */
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.forgotpass > form input {
+  border-radius: 4px;
+  border: 2px solid lightgrey;
+  outline: none;
+  color: #1d2129;
+  margin-top: 2rem;
+  width: 92%;
+  padding: 12px;
+  font-size: 16px;
+}

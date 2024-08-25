@@ -1,0 +1,218 @@
+.itemName {
+  width: 30%;
+  color: #004d8c;
+  text-align: right;
+}
+
+.itemRow {
+  display: flex;
+  padding: 20px 0px 5px 0px;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+.react-tabs__tab-list {
+  background-color: #004d8c;
+  align-items: stretch;
+  margin-bottom: 0px;
+}
+
+.react-tabs__tab-list li {
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0;
+}
+
+.react-tabs__tab.react-tabs__tab--selected {
+  background-color: #023864 !important;
+}
+
+.react-tabs__tab-panel {
+  background-color: #ececec;
+  height: 500px;
+}
+
+.prize-description {
+  text-align: left;
+  margin: 70px 20px;
+  font-size: 24px;
+}
+
+.prize-img {
+  margin-top: 20px;
+}
+
+.address-tab {
+  text-align: left;
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px;
+  }
+
+  .table thead tr {
+    background-color: #ccc;
+  }
+
+  .table tr {
+    text-align: left;
+  }
+
+  .table th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .table ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 0 10px;
+  }
+
+  .button {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.users {
+  margin: 20px 0;
+  text-align: left;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #ccc;
+  }
+
+  .modal-container {
+    float: right;
+  }
+
+  .add-button {
+    background-color: #00aeef;
+    color: white;
+    padding: 5px 5px 5px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    border-radius: 0;
+  }
+
+  .add-button:hover {
+    background-color: #005f73;
+  }
+
+  .dodaj {
+    background-color: #00aeef;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    border-radius: 0;
+  }
+
+  .dodaj:hover {
+    background-color: #005f73;
+  }
+
+  .modal {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    width: 300px;
+  }
+
+  .modal input {
+    width: 280px;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+
+  .modal button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004d8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .modal button:hover {
+    background-color: #00424d;
+  }
+
+  .modal small {
+    font-style: italic;
+  }
+
+  .modal small {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+}
+
+.purchase-tabs {
+  background-color: #ececec;
+
+  .react-tabs__tab-list {
+    background-color: #ececec;
+    align-items: stretch;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .react-tabs__tab-list li {
+    color: #004d8c !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+  }
+
+  .react-tabs__tab.selectedTab {
+    background-color: #ccc !important;
+    font-weight: bold !important;
+  }
+
+  .react-tabs__tab:focus:after {
+    display: none;
+  }
+}

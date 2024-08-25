@@ -1,0 +1,105 @@
+.divBlogPostItemContainerContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.aBlogShopRedirect{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.divBlogPostItemContainer{
+    text-align: center;
+    /* width: 610px; */
+    justify-content: center;
+}
+.divBlogPostItemContainer .blogpost-bottomLabel{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b2b2b2;
+    margin-bottom: 15px;
+}
+
+.divBlogPostItemContainer .productPageShareIconLabel{
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items; */
+}
+.divBlogPostItemContainer .productPageShareIconLabel button{
+    height: 40px;
+    width: 85px;
+    /* border: 2px solid black;
+    font-weight: 800; */
+}
+
+.divBlogPostItemContainer .productPageShareIconLabel span img{
+    height: 25px;
+
+}
+
+.divBlogPostItemTitle{
+    font-size: 18px !important;
+    font-weight: bolder !important;
+    margin-top: 10px;
+}
+
+.divBlogPostItemh1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;  
+    margin-top: 10px;
+}
+
+.divBlogItemPageImgBanner img{
+    height: 50%;
+    /* width: 100%; */
+    width: 100%;
+    object-fit: scale-down;
+    transform: translate3d(0px, 0px,100px);
+    text-align: center;
+    z-index: -1;
+    position: relative;
+}
+
+.pBlogPostItemText{
+    text-align: left;
+    font-size: 16px;
+}
+.pBlogPostItemText ul{
+    text-align: left;
+}
+
+.divBlogPostItemh2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.divBlogItemPageImages{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px 40px;
+    /* max-width: 610px; */
+    max-height: 510px;
+}
+
+.divBlogItemPageImages img{
+    height: 100%;
+    width: 50%;
+}
+
+@media (min-width: 1080px) {
+    .divBlogPostItemContainer{
+        text-align: center;
+        /* width: 610px; */
+        justify-content: center;
+        padding: 0px 200px 0px 200px;
+    }
+  }
+  

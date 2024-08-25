@@ -1,0 +1,7 @@
+.my-cart {
+  width: 100% !important;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}

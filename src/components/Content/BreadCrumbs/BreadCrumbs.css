@@ -1,0 +1,32 @@
+.BreadCrumbsContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  /* float: left; */
+}
+
+.BreadCrumbsPath {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  direction: ltr;
+  font-weight: 400;
+  color: #979797;
+}
+
+.BreadCrumbsContainer {
+  margin-bottom: 5px !important;
+}
+
+.BreadCrumbsPathLast {
+  color: #cbcbcb;
+}
+
+.BreadCrumbsPathNavigateable {
+  color: #282829;
+}
+.BreadCrumbsPathNavigateable:hover {
+  color: #004d8c;
+}

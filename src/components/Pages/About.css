@@ -1,0 +1,167 @@
+.block {
+  margin-bottom: 46px;
+}
+
+.block.about-us {
+  /* background-image: url("https://stroyka.html.themeforest.scompiler.ru/themes/default-ltr/images/aboutus.webp"); */
+  position: relative;
+  top: -25px;
+  z-index: -10;
+}
+
+.about-us__image {
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.about-us__body {
+  background: #fff;
+  min-height: 380px;
+  margin-top: -380px;
+  border-radius: 4px 4px 0 0;
+  padding: 75px 92px;
+}
+
+.about-us__title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 0;
+  color: #3d464d;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about-us__text {
+  text-align: center;
+  line-height: 1.625;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3d464d;
+  text-align: left;
+  direction: ltr;
+}
+.about-us__team-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #3d464d;
+  direction: ltr;
+}
+.about-us__team {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.about-us__team,
+.about-us__text,
+.about-us__title {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.about-us__team-subtitle {
+  margin-top: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  direction: ltr;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+.about-us__team-subtitle a {
+  color: #1a66ff;
+}
+
+.about-us__teammates {
+  margin-top: 42px;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.teammate__name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.teammate__position {
+  font-size: 14px;
+}
+
+/* .imgAboutUsBanner {
+  width: 235px;
+  height: 214px;
+} */
+
+@media (min-width: 992px) {
+  .teammates .slick-slide {
+    padding: 0 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-us__image {
+    height: 460px;
+  }
+}
